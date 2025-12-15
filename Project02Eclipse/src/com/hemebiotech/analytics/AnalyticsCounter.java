@@ -1,17 +1,11 @@
 package com.hemebiotech.analytics;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class AnalyticsCounter {
-    private static int headacheCount = 0;
-    private static int rashCount = 0;
-    private static int pupilCount = 0;
     
     private ISymptomReader reader;
     private ISymptomWriter writer;
