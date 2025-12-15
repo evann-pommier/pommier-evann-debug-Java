@@ -9,7 +9,7 @@ public class WriteSymptomDataToFile implements ISymptomWriter {
 	private final String filepath;
 	
 	public WriteSymptomDataToFile(String filepath) {
-        this.filepath = "result.out";
+        this.filepath = filepath;
     }
 	
 	@Override
