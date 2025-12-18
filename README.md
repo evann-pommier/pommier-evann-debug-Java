@@ -25,19 +25,21 @@ Il utilise **Log4j2** pour la journalisation des événements, offrant un suivi 
 ---
 
 ## Organisation du projet
+
 Project02Eclipse
 │
-├─ symptoms.txt # Fichier de symptômes
+├─ symptoms.txt                   # Fichier de symptômes
 └─ src
-│
-├─ log4j2.properties # Configuration Log4j2
-└─ com.hemebiotech.analytics
-│
-├─ AnalyticsCounter.java # Classe principale
-├─ ISymptomReader.java # Interface pour la lecture
-├─ ISymptomWriter.java # Interface pour l’écriture
-├─ ReadSymptomDataFromFile.java # Lecture depuis un fichier
-├─ WriteSymptomDataToFile.java # Écriture dans un fichier
+  │
+  ├─ log4j2.properties            # Configuration Log4j2
+  └─ com.hemebiotech.analytics
+    │
+    ├─ AnalyticsCounter.java      # Classe principale
+    ├─ ISymptomReader.java        # Interface pour la lecture
+    ├─ ISymptomWriter.java        # Interface pour l’écriture
+    ├─ ReadSymptomDataFromFile.java # Lecture depuis un fichier
+    └─ WriteSymptomDataToFile.java  # Écriture dans un fichier
+
 
 ---
 
