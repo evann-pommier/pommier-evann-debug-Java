@@ -67,7 +67,7 @@ public class AnalyticsCounter {
      */
     public static void main(String[] args) {
         ISymptomReader reader = new ReadSymptomDataFromFile("symptoms.txt");
-        ISymptomWriter writer = new WriteSymptomDataToFile("result.out");
+        ISymptomWriter writer = new WriteSymptomDataToFile("results.out");
 
         AnalyticsCounter counter = new AnalyticsCounter(reader, writer);
 
